@@ -1,0 +1,137 @@
+2:097  0:350  Found UEFI Acpi 2.0 RSDP at 6F313000
+2:097  0:000  Saving ACPI tables from RSDP 6F313000 to EFI\CLOVER\ACPI\origin ...
+2:097  0:000   6F313000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+7:019  4:921    (Xsdt: 6F3130B8, Rsdt: 6F313028)
+7:019  0:000    6F3130B8: 'XSDT', 'QA09   ', Rev: 1, Len: 236 -> XSDT.aml
+10:013  2:994    6F313028: 'RSDT', 'QA09   ', Rev: 1, Len: 136 -> RSDT.aml
+12:864  2:850    Tables in Xsdt: 25
+12:864  0:000    0. 6F32C0F0: 'FACP', 'QA09   ', Rev: 5, Len: 268 -> FACP.aml
+15:714  2:850        (Dsdt: 6F313230, Facs: 6FB18F80, XDsdt: 6F313230, XFacs: 0)
+15:714  0:000        6F313230: 'DSDT', 'QA09   ', Rev: 2, Len: 102073 -> DSDT.aml
+18:593  2:879        6FB18F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+21:442  2:848    1. 6F32C200: 'APIC', 'QA09   ', Rev: 3, Len: 132 -> APIC.aml
+24:322  2:879    2. 6F32C288: 'FPDT', 'QA09   ', Rev: 1, Len: 68 -> FPDT.aml
+27:159  2:837    3. 6F32C2D0: 'FIDT', 'QA09   ', Rev: 1, Len: 156 -> FIDT.aml
+29:996  2:837    4. 6F32C370: 'MCFG', 'QA09', Rev: 1, Len: 60 -> MCFG.aml
+32:845  2:848    5. 6F32C3B0: 'HPET', 'QA09', Rev: 1, Len: 56 -> HPET.aml
+36:567  3:721    6. 6F32C3E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-0.aml
+39:369  2:801    7. 6F32C700: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148 -> LPIT.aml
+42:158  2:789    8. 6F32C798: 'SSDT', 'sensrhub', Rev: 2, Len: 584 -> SSDT-1.aml
+44:947  2:788    9. 6F32C9E0: 'SSDT', 'PtidDevc', Rev: 2, Len: 3793 -> SSDT-2.aml
+47:781  2:834    10. 6F32D8B8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141 -> SSDT-3.aml
+50:584  2:803    11. 6F32E500: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+53:362  2:777    12. 6F32E538: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+56:154  2:792    13. 6F32E590: 'SSDT', 'xh_rvp07', Rev: 2, Len: 507 -> SSDT-4.aml
+58:931  2:776    14. 6F32E790: 'SSDT', 'DptfTabl', Rev: 2, Len: 14149 -> SSDT-5.aml
+61:733  2:802    15. 6F331ED8: 'BOOT', 'QA09    ', Rev: 1, Len: 40 -> BOOT.aml
+64:554  2:821    16. 6F331F00: 'SLIC', 'QA09   ', Rev: 1, Len: 374 -> SLIC.aml
+67:357  2:802    17. 6F332078: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21660 -> SSDT-6.aml
+70:133  2:776    18. 6F337518: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+72:925  2:791    19. 6F337560: 'MSDM', 'QA09   ', Rev: 3, Len: 85 -> MSDM.aml
+75:701  2:776    20. 6F3375B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+ Found hidden SSDT 7 pcs
+75:701  0:000        * 6E4A5698: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1566  53 53 44 54 1E 06 00 00 02 B7 50 6D 52 65 66 00 Internal length = 1566 -> SSDT-8x.aml
+79:502  3:800        * 6E4A4618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-9x.aml
+82:291  2:789        * 6E4A4C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-10x.aml
+85:134  2:842        * 6F0A7C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-11x.aml
+87:743  2:608        * 6C874018: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-12x.aml
+90:485  2:741        * 6D1A8018: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-13x.aml
+93:094  2:609        * 6C868D98: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-14x.aml
+95:834  2:740   -> SSDT-7.aml
+98:443  2:608    21. 6F338410: 'SSDT', 'SgPch', Rev: 2, Len: 1786 -> SSDT-15.aml
+101:184  2:741    22. 6F338B10: 'DMAR', 'SKL ', Rev: 1, Len: 204 -> DMAR.aml
+103:792  2:608    23. 6F338BE0: 'BGRT', 'QA09   ', Rev: 1, Len: 56 -> BGRT.aml
+107:573  3:780    24. 6F338C18: 'SSDT', 'OptTabl', Rev: 1, Len: 6522 -> SSDT-16.aml
+110:180  2:606    Tables in Rsdt: 25
+110:180  0:000    0. 6F3131A8: 'FACP', 'QA09   ', Rev: 2, Len: 132 -> RSDT-FACP.aml
+113:152  2:972        (Dsdt: 6F313230, Facs: 6FB18F40)
+113:152  0:000        6F313230: 'DSDT', 'QA09   ', Rev: 2, Len: 102073
+113:153  0:001        6FB18F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+116:146  2:992    1. 6F32C200: 'APIC', 'QA09   ', Rev: 3, Len: 132
+116:146  0:000    2. 6F32C288: 'FPDT', 'QA09   ', Rev: 1, Len: 68
+116:146  0:000    3. 6F32C2D0: 'FIDT', 'QA09   ', Rev: 1, Len: 156
+116:146  0:000    4. 6F32C370: 'MCFG', 'QA09', Rev: 1, Len: 60
+116:146  0:000    5. 6F32C3B0: 'HPET', 'QA09', Rev: 1, Len: 56
+116:146  0:000    6. 6F32C3E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+116:146  0:000    7. 6F32C700: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+116:146  0:000    8. 6F32C798: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+116:146  0:000    9. 6F32C9E0: 'SSDT', 'PtidDevc', Rev: 2, Len: 3793
+116:146  0:000    10. 6F32D8B8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+116:146  0:000    11. 6F32E500: 'DBGP', '', Rev: 1, Len: 52
+116:146  0:000    12. 6F32E538: 'DBG2', '', Rev: 0, Len: 84
+116:146  0:000    13. 6F32E590: 'SSDT', 'xh_rvp07', Rev: 2, Len: 507
+116:146  0:000    14. 6F32E790: 'SSDT', 'DptfTabl', Rev: 2, Len: 14149
+116:146  0:000    15. 6F331ED8: 'BOOT', 'QA09    ', Rev: 1, Len: 40
+116:146  0:000    16. 6F331F00: 'SLIC', 'QA09   ', Rev: 1, Len: 374
+116:146  0:000    17. 6F332078: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21660
+116:146  0:000    18. 6F337518: 'UEFI', '', Rev: 1, Len: 66
+116:146  0:000    19. 6F337560: 'MSDM', 'QA09   ', Rev: 3, Len: 85
+116:146  0:000    20. 6F3375B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+116:146  0:000    21. 6F338410: 'SSDT', 'SgPch', Rev: 2, Len: 1786
+116:146  0:000    22. 6F338B10: 'DMAR', 'SKL ', Rev: 1, Len: 204
+116:146  0:000    23. 6F338BE0: 'BGRT', 'QA09   ', Rev: 1, Len: 56
+116:146  0:000    24. 6F338C18: 'SSDT', 'OptTabl', Rev: 1, Len: 6522
+116:146  0:000  Found UEFI Acpi 1.0 RSDP at 6F313000
+116:146  0:000  Printing ACPI tables from RSDP 6F313000 ...
+116:146  0:000   6F313000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+116:146  0:000    (Xsdt: 6F3130B8, Rsdt: 6F313028)
+116:146  0:000    6F3130B8: 'XSDT', 'QA09   ', Rev: 1, Len: 236
+116:146  0:000    6F313028: 'RSDT', 'QA09   ', Rev: 1, Len: 136
+116:146  0:000    Tables in Xsdt: 25
+116:146  0:000    0. 6F32C0F0: 'FACP', 'QA09   ', Rev: 5, Len: 268
+116:146  0:000        (Dsdt: 6F313230, Facs: 6FB18F80, XDsdt: 6F313230, XFacs: 0)
+116:146  0:000        6F313230: 'DSDT', 'QA09   ', Rev: 2, Len: 102073
+116:147  0:001        6FB18F80: 'FACS', Ver: 2, Len: 64
+116:147  0:000    1. 6F32C200: 'APIC', 'QA09   ', Rev: 3, Len: 132
+116:147  0:000    2. 6F32C288: 'FPDT', 'QA09   ', Rev: 1, Len: 68
+116:147  0:000    3. 6F32C2D0: 'FIDT', 'QA09   ', Rev: 1, Len: 156
+116:147  0:000    4. 6F32C370: 'MCFG', 'QA09', Rev: 1, Len: 60
+116:147  0:000    5. 6F32C3B0: 'HPET', 'QA09', Rev: 1, Len: 56
+116:147  0:000    6. 6F32C3E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+116:147  0:000    7. 6F32C700: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+116:147  0:000    8. 6F32C798: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+116:147  0:000    9. 6F32C9E0: 'SSDT', 'PtidDevc', Rev: 2, Len: 3793
+116:147  0:000    10. 6F32D8B8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+116:147  0:000    11. 6F32E500: 'DBGP', '', Rev: 1, Len: 52
+116:147  0:000    12. 6F32E538: 'DBG2', '', Rev: 0, Len: 84
+116:147  0:000    13. 6F32E590: 'SSDT', 'xh_rvp07', Rev: 2, Len: 507
+116:147  0:000    14. 6F32E790: 'SSDT', 'DptfTabl', Rev: 2, Len: 14149
+116:147  0:000    15. 6F331ED8: 'BOOT', 'QA09    ', Rev: 1, Len: 40
+116:147  0:000    16. 6F331F00: 'SLIC', 'QA09   ', Rev: 1, Len: 374
+116:147  0:000    17. 6F332078: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21660
+116:147  0:000    18. 6F337518: 'UEFI', '', Rev: 1, Len: 66
+116:147  0:000    19. 6F337560: 'MSDM', 'QA09   ', Rev: 3, Len: 85
+116:147  0:000    20. 6F3375B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+116:147  0:000    21. 6F338410: 'SSDT', 'SgPch', Rev: 2, Len: 1786
+116:147  0:000    22. 6F338B10: 'DMAR', 'SKL ', Rev: 1, Len: 204
+116:147  0:000    23. 6F338BE0: 'BGRT', 'QA09   ', Rev: 1, Len: 56
+116:147  0:000    24. 6F338C18: 'SSDT', 'OptTabl', Rev: 1, Len: 6522
+116:147  0:000    Tables in Rsdt: 25
+116:147  0:000    0. 6F3131A8: 'FACP', 'QA09   ', Rev: 2, Len: 132
+116:147  0:000        (Dsdt: 6F313230, Facs: 6FB18F40)
+116:147  0:000        6F313230: 'DSDT', 'QA09   ', Rev: 2, Len: 102073
+116:149  0:001        6FB18F40: 'FACS', Ver: 0, Len: 64
+116:149  0:000    1. 6F32C200: 'APIC', 'QA09   ', Rev: 3, Len: 132
+116:149  0:000    2. 6F32C288: 'FPDT', 'QA09   ', Rev: 1, Len: 68
+116:149  0:000    3. 6F32C2D0: 'FIDT', 'QA09   ', Rev: 1, Len: 156
+116:149  0:000    4. 6F32C370: 'MCFG', 'QA09', Rev: 1, Len: 60
+116:149  0:000    5. 6F32C3B0: 'HPET', 'QA09', Rev: 1, Len: 56
+116:149  0:000    6. 6F32C3E8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+116:149  0:000    7. 6F32C700: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+116:149  0:000    8. 6F32C798: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+116:149  0:000    9. 6F32C9E0: 'SSDT', 'PtidDevc', Rev: 2, Len: 3793
+116:149  0:000    10. 6F32D8B8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+116:149  0:000    11. 6F32E500: 'DBGP', '', Rev: 1, Len: 52
+116:149  0:000    12. 6F32E538: 'DBG2', '', Rev: 0, Len: 84
+116:149  0:000    13. 6F32E590: 'SSDT', 'xh_rvp07', Rev: 2, Len: 507
+116:149  0:000    14. 6F32E790: 'SSDT', 'DptfTabl', Rev: 2, Len: 14149
+116:149  0:000    15. 6F331ED8: 'BOOT', 'QA09    ', Rev: 1, Len: 40
+116:149  0:000    16. 6F331F00: 'SLIC', 'QA09   ', Rev: 1, Len: 374
+116:149  0:000    17. 6F332078: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21660
+116:149  0:000    18. 6F337518: 'UEFI', '', Rev: 1, Len: 66
+116:149  0:000    19. 6F337560: 'MSDM', 'QA09   ', Rev: 3, Len: 85
+116:149  0:000    20. 6F3375B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+116:149  0:000    21. 6F338410: 'SSDT', 'SgPch', Rev: 2, Len: 1786
+116:149  0:000    22. 6F338B10: 'DMAR', 'SKL ', Rev: 1, Len: 204
+116:149  0:000    23. 6F338BE0: 'BGRT', 'QA09   ', Rev: 1, Len: 56
+116:149  0:000    24. 6F338C18: 'SSDT', 'OptTabl', Rev: 1, Len: 6522
